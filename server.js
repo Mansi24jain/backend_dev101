@@ -34,6 +34,6 @@ const server = http.createServer(function(req, res) {
 	}
 });
 
-var port=process.env.PORT||80
+var port=process.env.PORT||80;
 server.listen(port);
 console.log('server has been created on port.');
