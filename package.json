@@ -10,6 +10,10 @@
 		"nodemon": "^1.19.1"
 	},
 	"scripts": {
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 5fa8c42b44c69923a65cc858efc6b47e55506b8e
 		"start": "node index.js"
 	},
 	"keywords": [],
