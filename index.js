@@ -3,7 +3,7 @@ const fs = require('fs');
 const url = require('url');
 const replace = require('./replace.js');
 //json
-let json = fs.readFileSync('../lecture_9/data.json');
+let json = fs.readFileSync('./data.json');
 let jsonObj = JSON.parse(json);
 //templates
 const producthtml = fs.readFileSync('./templates/template-product.html').toString();
@@ -34,7 +34,7 @@ const server = http.createServer(function(req, res) {
 	}
 });
 
-var port=process.env.PORT||80;
+var port = process.env.PORT || 80;
 server.listen(port);
 // console.log(port)
 console.log('server has been created on port.');
